@@ -1,0 +1,20 @@
+Package: COVIDminerAPI
+Type: Package
+Title: COVIDminer API access
+Version: 1.0.0
+Authors@R: person("Rupert", "Overall", email = "mail@rupertoverall.net",
+  role = c("aut", "cre"), comment = c(ORCID = "0000-0002-3882-6073"))
+Maintainer: Rupert Overall <mail@rupertoverall.net>
+URL: https://rupertoverall.net/covidminer/, https://github.com/rupertoverall/COVIDminer
+BugReports: https://github.com/rupertoverall/COVIDminer/issues
+Description: This package allows easy access from R to the COVIDminer API. It enables database searches and network retrieval to be performed in a way that integrates with R workflows.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    httr,
+    jsonlite,
+    RCurl
+RoxygenNote: 7.1.1
+Depends: R (>= 2.10)
+Suggests: knitr, rmarkdown
