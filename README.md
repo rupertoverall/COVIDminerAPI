@@ -27,7 +27,7 @@ Usage
 ------------
 
 The COVIDminerAPI package is used to construct API queries to the [COVIDminer](https://rupertoverall.net/covidminer/) text mining service.
-Because the functions accept character vectors and return data frames and lists, calling the web service and parsing the response fits seamlessly into your R code.
+Because the functions accept character vectors and return data frames and lists, this package makes calling the web service and parsing the response fit seamlessly into your R code.
 
 A example session is shown below:
 
